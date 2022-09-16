@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    margin: 0 auto;
+    text-align: center;
+    width: 70vw;
+}
+img {
+    border-radius: 50%;
+}
+
+.newsletter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.list {
+    list-style-type: none;
+    text-align: left;
+    margin-left: 15%;
+}
+button {
+    padding: 5px 10px;
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+input {
+    line-height: 18px;
+    padding: 5px 20px;
+    font-size: 18px;
+    border-radius: 18px;
+}
