@@ -1,9 +1,73 @@
+@font-face {
+    font-family: "greatvibes";
+    src: url("./GreatVibes-Regular.ttf");
+}
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 body{
-    background-image: url("./univers-unsplash-ok.jpg");
+    min-height: 100vh;
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+    background-image: url("./universe.gif");
+    background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.hero{
+    margin: 0 auto;
+   
+}
+.logo{
+    text-shadow: 0px 0px 5px maroon;
+    font-weight: bold;
+}
+.x{
+    color: maroon;
+    font-size: 3rem;
+}
+h1{
+    margin-top: 5rem;
+    text-shadow: 0px 0px 5px maroon;
+}
+h4{
+    color: maroon;
+    padding: 2rem;
+    background-color: whitesmoke;
+    width: 100%;
+    cursor: pointer;
+}
+.underline {
+    border-bottom: 8px solid maroon;
+    cursor: pointer;
+}
+.underline:hover{
+    color: maroon;
+    border-bottom: 8px solid whitesmoke;
+    text-shadow: 0px 0px 5px whitesmoke;
+}
+button {
+    padding: 10px 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 2rem;
+    cursor: pointer;
+    margin-top: 2rem;
+    color: maroon;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    box-shadow: 0px 0px 5px maroon;
+}
+button:hover {
+    background-color: maroon;
+    color: whitesmoke;
 }
