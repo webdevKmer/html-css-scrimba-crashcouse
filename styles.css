@@ -6,5 +6,16 @@
 body{
     font-family: 'Happy Monkey', cursive;
     text-align: center;
-    background: linear-gradient(rgb(76, 209, 254), pink);
+}
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+img {
+    width: 100px;
 }
