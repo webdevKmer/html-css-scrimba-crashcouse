@@ -39,6 +39,7 @@ body{
     border: 8px solid gold;
     border-radius: 20px;
     margin-top: 1rem;
+    margin-bottom: 1.5rem;
     background-image: url("./images/gift-cover.jpg");
     background-size: cover;
     cursor: pointer;
@@ -49,6 +50,18 @@ body{
 /* .gift-box {
     background-image: url("https://giphy.com/embed/vitjHBZRQr4uQEZ6N9/video");
 } */
+#chatdansant:hover{
+    background-image: url("./images/chatdansant.gif");
+}
+#clindoeildog:hover{
+    background-image: url("./images/clindoeildog.webp");
+}
+#singegrimace:hover{
+    background-image: url("./images/grimace\ de\ singe.gif");
+}
+#lapingrignotte:hover{
+    background-image: url("./images/lapingrignotte.webp");
+}
 #bye-omer:hover{
     background-image: url("./images/Omer\ se\ cache.gif");
 }
